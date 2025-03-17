@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(22, 22, 41);
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 4%;
+    font-family: "Rubik Distressed", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.atnd {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.atnd input {
+    width: 20%;
+    padding: 15px;
+    font-size: large;
+    border: 2px solid #07ff0f;
+    border-radius: 5px;
+}
+
+.atnd input::placeholder {
+    color: rgb(254, 254, 254);
+    font-weight: 600;
+}
+
+.atnd button {
+    padding: 15px;
+    width: 120px;
+    border-radius: 10px;
+    color: #07ff0f;
+    border: 2px solid rgb(133, 236, 126);
+    background-color: #0b1b0c;
+    font-size: large;
+    font-weight: 800;
+}
+
+.atnd button:hover {
+    color: #0b1b0c;
+    background-color: #07ff0f;
+    border: 2px solid rgb(5, 66, 48);
+}
+
+.box {
+    margin-top: 3%;
+    width: 40%;
+    max-height: 300px;  /* Scroll ke liye height fix ki */
+    padding: 20px;
+    border: 2px solid rgb(201, 216, 212);
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto; /* Y-axis par scrolling enable */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+/* Attendance entry ke liye styling */
+.attendance-entry {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 18px;
+}

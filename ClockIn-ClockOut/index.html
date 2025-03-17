@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Attendance System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h2>Employee Attendance System</h2>
+
+    <div class="container">
+        <input type="text" id="rollNumber" placeholder="Enter Roll Number">
+        <button onclick="clockIn()">Clock In</button>
+        <button onclick="breakIn()">Break In</button>
+        <button onclick="breakOut()">Break Out</button>
+        <button onclick="clockOut()">Clock Out</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Roll Number</th>
+                <th>Clock In</th>
+                <th>Break In</th>
+                <th>Break Out</th>
+                <th>Clock Out</th>
+                <th>Work Hours</th>
+                <th>Break Time</th>
+            </tr>
+        </thead>
+        <tbody id="attendanceTable">
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

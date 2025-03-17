@@ -1,0 +1,69 @@
+body{
+    color: aliceblue;
+    background-color: rgb(16, 21, 58);
+    font-family: serif;
+}
+
+.cointainer{
+    background-color: rgb(190, 190, 190);
+    color: black;
+    padding: 35px;
+    border: 1px solid #282727;
+    margin-top: 10%;
+    
+}
+h1{
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.cointainer .list ol{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(76, 2, 2);
+    text-align: center;
+    
+}
+
+.cointainer .list ol li{
+    margin: 9px;
+}
+
+.btn button{
+    padding: 20px;
+    width: 10%;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 18.2%;
+    margin-top: 2%;
+    border: 2px solid #282727;
+    border-radius: 5px;
+
+}
+
+.btn #presentBtn{
+    background-color: #035474;
+    color: aliceblue;
+}
+.btn #presentBtn:hover{
+    background-color: #0fa3ddd5;
+    color: rgb(0, 0, 0);
+}
+.btn #absentBtn{
+    background-color: #6c0321;
+    color: aliceblue;
+}
+.btn #absentBtn:hover{
+    background-color: #d9335ad5;
+    color: rgb(0, 0, 0);
+}
+.btn #nextBtn{
+    background-color: #036504;
+    color: aliceblue;
+}
+.btn #nextBtn:hover{
+    background-color: #12ff45d5;
+    color: rgb(0, 0, 0);
+}
